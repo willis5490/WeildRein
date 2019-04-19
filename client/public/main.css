@@ -89,8 +89,8 @@
     color: yellow !important;
 }
 .homeBioPics{
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
 }
 #homeFirstSection{
     background-color: black;
@@ -100,16 +100,13 @@
 }
 .bodydividers{
     border-top: 2px solid black !important;
-    width: 1000px !important;
+    width: 1150px !important;
    
 }
 .homeButtons{
-    letter-spacing: 3px;
+    letter-spacing: 4px;
 }
-.homeNames{
-    transform: rotate(-2deg); 
-    
-}
+
 #homePicSection{
     background: linear-gradient(180deg, rgb(255, 255, 255) 75%, rgb(182, 182, 182) 25%);
 }
@@ -169,11 +166,29 @@
 .thickerFonts{
     font-weight: 1000;
 }
+#BioContainer{
+    position: relative;
+}
+.homeNames{
+    transform: rotate(-2deg); 
+    position: absolute;
+    right: 29%;
+   top: 95%;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+.serviceList{
+    font-size: 50px;
+    letter-spacing: 3px;
+}
 
 /* Work page */
 
 .workRow1{
     height: 250px !important;
+}
+#workWrapper2{
+    margin-bottom: 70px !important;
 }
 
 
@@ -205,13 +220,31 @@
     margin-top: -30px
 }
 .aboutWrapper4{
-    background: linear-gradient(180deg, rgb(255, 255, 255) 50%, yellow 50%);
+    background: linear-gradient(180deg, grey 63%, yellow 37%);
 }
 .aboutWrapper5{
     background-color: yellow;
 }
 .aboutWrapper7{
     background-color: yellow;
+}
+#aboutPicsDiv{
+    position: relative;
+    padding-bottom: 30px;
+}
+#aboutPicsName{
+    position: absolute;
+    bottom: -02%;
+    right: 35%;
+    
+}
+#homePicSectionMobile{
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+.aboutPicDivs{
+    padding-left: 140px !important;
+    padding-right: 140px !important;
 }
 
 /* SERVICE PAGE */
@@ -226,7 +259,21 @@
 #servicesWrapper4{
     background-color: gray;
 }
+#serviceGearIcon{
+    background-color: white !important;
+    width: 100px !important;
+    height: 100px !important;
+    position: absolute;
+    bottom: -15%;
+    left: 0%;
 
+}
+#servicesGearContainer{
+    position: relative;
+}
+#paraServiceGears{
+    margin-bottom: 100px;
+}
 
 /* mobile */
 
@@ -279,7 +326,7 @@
     }
    
    #homeH1DefineStory{
-       font-size: 15px;
+       font-size: 20px;
    }
    .serviceList{
        font-size: 25px;
@@ -287,6 +334,21 @@
    .homeBioPics{
     width: 250px;
     height: 250px;
+}
+#BioContainer{
+    position: relative;
+}
+.homeNames{
+    transform: rotate(-2deg); 
+    position: absolute;
+    right: 14%;
+   top: 95%;
+    letter-spacing: 3px;
+    font-size: 20px
+}
+#bottonDivider{
+    border-top: 15px solid black !important;
+    width: 60px !important;
 }
 
 
@@ -298,8 +360,29 @@
 .aboutGiantText{
     font-size: 50px;
 }
+#serviceGearIcon{
+    background-color: white !important;
+    width: 100px !important;
+    height: 100px !important;
+    position: absolute;
+    bottom: -5%;
+    left: 0%;
 
- 
+}
+#servicesWrapper4{
+    background-color: white;
+}
+.aboutPicDivs{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+/* WORK */
+#workWrapper2{
+    margin-bottom: 0px !important;
+}
+
+
 }
 
 @media only screen and (max-width: 480px) { 
@@ -325,4 +408,8 @@
     .bodydividers{
         width: 200px !important; 
     }
+    #servicesGraphicDesignH1{
+        font-size: 33px;
+    }
+    
 }

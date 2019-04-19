@@ -66,7 +66,7 @@ class Work extends Component {
       <div >
 
          <div id='workWrapper1'>
-            <div className='uk-container uk-margin-large-top'>
+            <div className='WorkSpecialContainer uk-margin-large-top'>
               <div className='uk-grid-match' uk-grid='true'>
                 <div className='uk-width-1-4@m uk-width-1-2'>
                   <img className='workRow1'src='../images/placeholder.jpg'></img>
@@ -82,7 +82,7 @@ class Work extends Component {
          </div>
 
          <div id='workWrapper2'>
-            <div className='uk-container uk-margin-large-top uk-margin-large-bottom'>
+            <div className='WorkSpecialContainer uk-margin-medium-top  '>
               <div className='uk-grid-match' uk-grid='true'>
                 <div className='uk-width-1-2@m uk-width-1-1'>
                   <img className='workRow2'src='../images/placeholder.jpg'></img>
@@ -122,7 +122,7 @@ class Work extends Component {
           {/* END */}
 
            <div className='uk-hidden@m' id='workWrapper3'>
-            <div className='uk-container uk-margin-large-top uk-margin-large-bottom'>
+            <div className='WorkSpecialContainer  uk-margin-medium-bottom'>
               <div className='uk-grid-match' uk-grid='true'>
                 <div className='uk-width-1-4@m uk-width-1-2'>
                   <img className='workRow uk-margin-medium-bottom'src='../images/placeholder.jpg'></img>
@@ -175,7 +175,7 @@ class Work extends Component {
          </div>
 
           <div className='workWrapper3 uk-visible@m'>
-                      <div className='uk-container uk-margin-xlarge-top'>
+                      <div className='WorkSpecialContainer uk-margin-large-top'>
                         <div className='uk-grid-match' uk-grid='true'>
                           <div className='uk-width-1-2'>
                           
@@ -219,7 +219,7 @@ class Work extends Component {
                     </div>
 
                     <div className='workWrapper4 uk-margin-medium-top uk-visible@m'>
-                      <div className='uk-container'>
+                      <div className='WorkSpecialContainer'>
                         <div className='uk-grid-match' uk-grid='true'>
                           <div className='uk-width-1-2'>
                               <div className='uk-grid-match' uk-grid='true'>
@@ -265,7 +265,7 @@ class Work extends Component {
 
           <div className='uk-container'>
                 <div>
-                    <h1 className='uk-margin-medium-top uk-visible@m'>Services include, but not limited to</h1>
+                    <h1 style={{fontSize:'80px'}} className='uk-margin-xlarge-top uk-visible@m'>Services include, but not<br></br> limited to</h1>
                     <h1 className='uk-margin-large-top uk-hidden@m'>Services<br></br> include, but not limited to</h1>
                     <hr id='bottonDivider' class=""></hr>
                     <h1 className='uk-margin-remove-top uk-margin-remove-bottom serviceList thickerFonts'><b>LEADERSHIP</b></h1>

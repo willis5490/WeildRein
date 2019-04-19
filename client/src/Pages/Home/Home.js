@@ -126,7 +126,7 @@ class Home extends Component {
                 <div className='uk-container' uk-grid='true'>
                     <div class="uk-width-1-1@m uk-margin-auto-vertical">
                       <div className=''>
-                          <p>HEY THERE!</p>
+                          <p style={{letterSpacing:'3px'}} className='uk-margin-remove-bottom'>HEY THERE!</p>
                           <h2 id='homeWildreinh2' className='uk-margin-small-top thickerFonts'><b>WE ARE WILDREIN COLLECTIVE</b></h2>
                         
                       </div>
@@ -152,17 +152,16 @@ class Home extends Component {
 
 
             <hr class="uk-align-center uk-text-center  uk-overflow-hidden  bodydividers uk-margin-xlarge-bottom uk-margin-large-top uk-visible@m"></hr>
-
+            <div className='uk-container'>
              <div  class=" uk-height-expand uk-background-cover uk-overflow-hidden uk-flex uk-flex-top uk-visible@m " uk-grid='true' >
                 <div class="uk-width-1-2@m uk-text-center uk-margin-auto ">
-                   <div>
+                   <div id='BioContainer' className='uk-align-center'>
                       <img className='uk-border-circle homeBioPics' src='../images/placeholder.jpg'></img>
-                        <h4 className='uk-margin-remove-top homeNames'>Charlotte Harrison</h4>
+                        <h3 className='uk-margin-remove-top homeNames'>Charlotte Harrison</h3>
                    </div>
                 </div>
-                <div class="uk-width-1-2@m  uk-margin-auto  uk-overflow-hidden  uk-margin-auto-vertical rightsideWebpage ">
-                    <div className='uk-container'> 
-                        <h3>CASI@WILDREIN.COM</h3>
+                <div class="uk-width-1-2@m   uk-margin-auto  uk-overflow-hidden  uk-margin-auto-vertical rightsideWebpage ">                    
+                        <h4><b>CASI@WILDREIN.COM</b></h4>
                         <p className='uk-margin-large-top'>
                         Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
                             Lorem ipsumLorem ipsumLorem ipsumLorem ipsum
@@ -171,20 +170,20 @@ class Home extends Component {
                             Lorem ipsumLorem ipsumLorem ipsumLorem ipsum
                             Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
                         </p>
-                        <a><button className='uk-button uk-button-default uk-button-large uk-margin-medium-top uk-margin-xlarge-bottom homeButtons uk-text-center'>MORE ABOUT CASI</button></a>
-                    </div>
+                        <a><button  className='uk-button uk-button-default uk-button-large uk-margin-medium-top uk-margin-xlarge-bottom homeButtons uk-text-center'><b>MORE ABOUT CASI</b></button></a>                  
                 </div>
             </div>
-            <div  class=" uk-height-expand  uk-background-cover uk-overflow-hidden uk-flex uk-flex-top uk-visible@m " uk-grid='true' >
+            </div>
+            <div className='uk-container'>
+             <div  class=" uk-height-expand uk-background-cover uk-overflow-hidden uk-flex uk-flex-top uk-visible@m " uk-grid='true' >
                 <div class="uk-width-1-2@m uk-text-center uk-margin-auto ">
-                   <div>
+                   <div id='BioContainer' className='uk-align-center'>
                       <img className='uk-border-circle homeBioPics' src='../images/placeholder.jpg'></img>
-                        <h4 className='uk-margin-remove-top homeNames'>Charlotte Harrison</h4>
+                        <h3 className='uk-margin-remove-top homeNames'>Charlotte Harrison</h3>
                    </div>
                 </div>
-                <div class="uk-width-1-2@m  uk-margin-auto uk-margin-auto-vertical rightsideWebpage ">
-                    <div className='uk-container'> 
-                        <h3>CASI@WILDREIN.COM</h3>
+                <div class="uk-width-1-2@m   uk-margin-auto  uk-overflow-hidden  uk-margin-auto-vertical rightsideWebpage ">                    
+                        <h4><b>CASI@WILDREIN.COM</b></h4>
                         <p className='uk-margin-large-top'>
                         Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
                             Lorem ipsumLorem ipsumLorem ipsumLorem ipsum
@@ -193,19 +192,22 @@ class Home extends Component {
                             Lorem ipsumLorem ipsumLorem ipsumLorem ipsum
                             Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
                         </p>
-                        <a><button className='uk-button uk-button-default uk-button-large uk-margin-medium-top uk-margin-xlarge-bottom homeButtons uk-text-center'>MORE ABOUT CASI</button></a>
-                    </div>
+                        <a><button  className='uk-button uk-button-default uk-button-large uk-margin-medium-top uk-margin-xlarge-bottom homeButtons uk-text-center'><b>MORE ABOUT CASI</b></button></a>                  
                 </div>
             </div>
+            </div>
+            
 
 
             {/* mobile view */}
 
             <div class=" uk-height-expand uk-background-cover uk-margin-large-top uk-margin-large-bottom uk-overflow-hidden uk-flex uk-flex-top uk-hidden@m " uk-grid='true'>
-                <div class="uk-width-1-1@xs  uk-margin-auto uk-margin-auto-vertical">
+                <div class="uk-width-1-1  uk-margin-auto uk-margin-auto-vertical">
                   <div className='uk-text-center'>
-                      <img className='uk-border-circle homeBioPics' src='../images/placeholder.jpg'></img>
-                        <h4 className='uk-margin-remove-top homeNames'>Charlotte Harrison</h4>
+                        <div id='BioContainer' className='uk-align-center'>
+                            <img className='uk-border-circle homeBioPics' src='../images/placeholder.jpg'></img>
+                                <h3 className='uk-margin-remove-top homeNames'>Charlotte Harrison</h3>
+                        </div>
                         <div className='bioIconsMobile uk-margin-small-top'>
                             <a href=''><span  class="iconMobileAbout" uk-icon="icon:instagram"></span></a>
                             <a href=''><span  class="iconMobileAbout" uk-icon="icon:facebook"></span></a>
@@ -228,8 +230,10 @@ class Home extends Component {
                 </div>
                 <div class="uk-width-1-1@xs  uk-margin-auto uk-margin-auto-vertical">
                   <div className='uk-text-center'>
-                      <img className='uk-border-circle homeBioPics' src='../images/placeholder.jpg'></img>
-                        <h4 className='uk-margin-remove-top homeNames'>Charlotte Harrison</h4>
+                        <div id='BioContainer' className='uk-align-center'>
+                            <img className='uk-border-circle homeBioPics' src='../images/placeholder.jpg'></img>
+                                <h3 className='uk-margin-remove-top homeNames'>Charlotte Harrison</h3>
+                        </div>
                         <div className='bioIconsMobile uk-margin-small-top'>
                             <a href=''><span  class="iconMobileAbout" uk-icon="icon:instagram"></span></a>
                             <a href=''><span  class="iconMobileAbout" uk-icon="icon:facebook"></span></a>
@@ -247,7 +251,7 @@ class Home extends Component {
                             Lorem ipsumLorem ipsumLorem ipsumLorem ipsum
                             Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
                         </p>
-                        <a><button className='uk-button uk-button-default uk-button-large uk-margin-medium-top uk-margin-xlarge-bottom homeButtons uk-text-center'><b>MORE ABOUT CASI</b></button></a>
+                        <a><button className='uk-button uk-button-default uk-button-large uk-margin-medium-top uk-margin-large-bottom homeButtons uk-text-center'><b>MORE ABOUT CASI</b></button></a>
                     </div>
                 </div>
 
@@ -272,16 +276,16 @@ class Home extends Component {
 
 
           {/* mobile homePicSection */}
-          <div id='homePicSection' className='uk-hidden@m'>
-              <div  className='uk-container uk-container-center'>
+          <div id='homePicSectionMobile' className='uk-hidden@m uk-margin-remove-bottom'>
+              <div  className=''>
                   <div className='' uk-grid='true'>
                         <div className='uk-width-1-1@s'>
                             <img className='' src='../images/placeholder.jpg' width='100%'  ></img>
                         </div>
                   </div>
-                  <div  className='' uk-grid='true'>
+                  <div  className='uk-margin-remove-bottom' uk-grid='true'>
                         <div className='uk-width-1-2'>
-                            <img className='uk-margin-medium-bottom' src='../images/placeholder.jpg'   width='100%'></img>
+                            <img  className='' src='../images/placeholder.jpg'   width='100%'></img>
                         </div>
                         <div className='uk-width-1-2'>
                             <img className='' src='../images/placeholder.jpg'   width='100%'></img>
@@ -294,7 +298,7 @@ class Home extends Component {
 
           <div id='homeGreySection' >
               <div className='uk-container  uk-overflow-hidden '>
-                <h1 className='uk-margin-xlarge-top'>Your business dreams make <br></br> our hearts flip!</h1>
+                <h1 className='uk-margin-large-top'>Your business dreams make <br></br> our hearts flip!</h1>
                 <p  className='uk-margin-medium-top '>
                 Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
                         Lorem ipsumLorem ipsumLorem ipsumLorem ipsum
@@ -312,7 +316,7 @@ class Home extends Component {
                 <div className='uk-grid-match uk-overflow-hidden uk-margin-xlarge-top uk-margin-xlarge-bottom' uk-grid='true'>
                       <div className='uk-width-1-2@m'>
                           <h1 id='homeH1DefineStory' className='uk-margin-remove-bottom uk-visible@m'><b>DEFINE YOUR <br></br> STORY</b></h1>
-                          <h1 id='homeH1DefineStory' className='uk-margin-remove-bottom uk-hidden@m'><b>DEFINING YOUR STORY.</b></h1>
+                          <h1 id='homeH1DefineStory' className='uk-margin-remove-bottom uk-margin-remove-top uk-hidden@m'><b>DEFINING YOUR STORY.</b></h1>
                           <p >
                           Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
                         Lorem ipsumLorem ipsumLorem ipsumLorem ipsum
@@ -334,10 +338,18 @@ class Home extends Component {
               
           </div>
 
-          <div id='homeYellowSection'>
+          <div className='uk-visible@m' id='homeYellowSection'>
                 <div className='uk-container'>
                     <i className="far fa-4x fa-comments uk-margin-large-top"></i>
                     <h1 className='thickerFonts'><b>BOOK COMPLIMENTARY <br></br> 20 MINUTE CONSULTATION</b></h1>
+                    <p className='uk-margin-remove-top'>Way better than a nice to e-meet you. Speaking in person will get the ball rolling.</p>
+                    <a><button id='homeWhiteButton' className='uk-button uk-button-default uk-button-large uk-margin-medium-top uk-margin-large-bottom  uk-text-center'><b>PENCIL ME IN NOW</b></button></a>
+                </div>
+          </div>
+          <div className='uk-hidden@m' id='homeYellowSection'>
+                <div className='uk-container'>
+                    <i className="fas fa-4x fa-mobile-alt uk-margin-large-top"></i>
+                    <h1 className='thickerFonts'><b>FREE <br></br> 20 MINUTE<br></br> CALL</b></h1>
                     <p className='uk-margin-remove-top'>Way better than a nice to e-meet you. Speaking in person will get the ball rolling.</p>
                     <a><button id='homeWhiteButton' className='uk-button uk-button-default uk-button-large uk-margin-medium-top uk-margin-large-bottom  uk-text-center'><b>PENCIL ME IN NOW</b></button></a>
                 </div>
@@ -372,7 +384,7 @@ class Home extends Component {
 
           {/* mobile */}
           <div  className='uk-hidden@m'>
-            <img className='uk-align-center uk-margin-medium-top' src='../images/placeholder.jpg' width='450px'></img>
+            <img className='uk-align-center uk-margin-remove-top' src='../images/placeholder.jpg' width='450px'></img>
             <div className='uk-container  uk-overflow-hidden '>
                 <div className='uk-grid-match uk-overflow-hidden uk-margin-large-top uk-margin-large-bottom' uk-grid='true'>
                         <div className='uk-width-1-1@'>
@@ -400,13 +412,13 @@ class Home extends Component {
                     <div className='uk-container  uk-overflow-hidden '>
                         
                         <div className='uk-grid-match uk-overflow-hidden uk-text-center uk-margin-large-top uk-margin-large-bottom  uk-visible@m' uk-grid='true'>
-                            <div className='uk-width-1-3'>
+                            <div className='uk-width-2-5'>
                                 <img className='homeMiddleThreePics' src='../images/placeholder.jpg' width='250px'></img>   
                             </div>
-                            <div className='uk-width-1-3'>
+                            <div className='uk-width-expand'>
                                 <img className='homeMiddleThreePics' src='../images/placeholder.jpg' width='250px'></img>   
                             </div>
-                            <div className='uk-width-1-3'>
+                            <div className='uk-width-expand'>
                                 <img className='homeMiddleThreePics' src='../images/placeholder.jpg' width='250px'></img>   
                             </div>
                         </div>
@@ -418,17 +430,17 @@ class Home extends Component {
                     <div className=' uk-overflow-hidden '>
                         
                         <div className=' uk-overflow-hidden uk-text-center uk-margin-large-top uk-margin-large-bottom uk-hidden@m' uk-grid='true'>
-                            <div className='uk-width-1-2'>
-                                <img className='homeMiddleThreePics'src='../images/placeholder.jpg'></img>  
+                            <div className='uk-width-1-2 uk-margin-remove-bottom'>
+                                <img className='homeMiddleThreePicsMobile 'src='../images/placeholder.jpg'></img>  
                             </div>
                             <div className='uk-width-1-2'>
-                                <img className='homeMiddleThreePics'src='../images/placeholder.jpg'></img>  
+                                <img className='homeMiddleThreePicsMobile'src='../images/placeholder.jpg'></img>  
                             </div>
                             <div className='uk-width-1-2'>
-                                <img className='homeMiddleThreePics'src='../images/placeholder.jpg'></img>  
+                                <img className='homeMiddleThreePicsMobile'src='../images/placeholder.jpg'></img>  
                             </div>
                             <div className='uk-width-1-2'>
-                                <img className='homeMiddleThreePics'src='../images/placeholder.jpg'></img>  
+                                <img className='homeMiddleThreePicsMobile'src='../images/placeholder.jpg'></img>  
                             </div>
                         </div>
                     </div>
@@ -440,7 +452,7 @@ class Home extends Component {
 
             <div className='uk-container'>
                 <div>
-                    <h1 className='uk-margin-large-top uk-visible@m'>Services include, but not limited to</h1>
+                    <h1 style={{fontSize:'80px'}} className='uk-margin-large-top uk-visible@m'>Services include, but not<br></br> limited to</h1>
                     <h1 className='uk-margin-large-top uk-hidden@m'>Services<br></br> include, but not limited to</h1>
                     <hr id='bottonDivider' class=""></hr>
                     <h1 className='uk-margin-remove-top uk-margin-remove-bottom serviceList thickerFonts'><b>LEADERSHIP</b></h1>
